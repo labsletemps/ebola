@@ -29,12 +29,12 @@ a
 }
 
 .cases {
-    fill: steelblue;
+    fill: #b2abd2;
 }
 
 .deaths {
-    fill: red;
-}
+    fill: #d7191c;
+  }
 
 .axis text {
   font: 10px sans-serif;
@@ -83,6 +83,10 @@ a
 }
  
  #Guinea {
+  stroke: black;
+  stroke-width: 1px;
+}
+ #Senegal {
   stroke: black;
   stroke-width: 1px;
 }

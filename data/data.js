@@ -17,6 +17,11 @@ var data = [{
         "Country": "Nigeria",
         "Deaths": "0",
         "Cases": "0"
+    },
+    {
+        "Country": "Senegal",
+        "Deaths": "0",
+        "Cases": "0"
     }],
     "RegionDeaths": [{
         "Region": "Boffa",
@@ -3258,6 +3263,11 @@ var data = [{
         "Country": "Nigeria",
         "Deaths": "6",
         "Cases": "17"
+    },
+    {
+        "Country": "Senegal",
+        "Deaths": "0",
+        "Cases": "1"
     }],
     "RegionDeaths": [{
         "Region": "Boffa",

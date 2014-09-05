@@ -206,6 +206,10 @@ function generateBarChart(id,datain){
             if(i===6){
                 return "Nigéria";
             }
+            if(i===8){
+                return "Sénégal";
+            }
+
         });                
 
     svg.append("g")
@@ -218,7 +222,7 @@ function generateMap(id){
     var margin = {top: 10, right: 10, bottom: 10, left: 10},
     width = $(id).width() - margin.left - margin.right,
     height = 300;
-    if(width<200){sc=500;center=[37, 0 ];fs="8px";shift=20;} else {sc=950;center=[13, 0 ];fs="14px";shift=0;}
+    if(width<200){sc=500;center=[37, 0 ];fs="8px";shift=20;} else {sc=710;center=[19, 0 ];fs="14px";shift=0;}
     var projection = d3.geo.mercator()
         .center(center)
         .scale(sc);
@@ -245,6 +249,7 @@ function generateMap(id){
                   || d.properties.NAME_REF==="Liberia" 
                   || d.properties.NAME_REF==="Guinea" 
                   || d.properties.NAME_REF==="Nigeria" 
+                  || d.properties.NAME_REF==="Senegal" 
                           ){
                       return "transparent";
                   } else {
@@ -274,6 +279,7 @@ function generateMap(id){
                   || d.properties.NAME_REF==="Liberia" 
                   || d.properties.NAME_REF==="Guinea" 
                   || d.properties.NAME_REF==="Nigeria" 
+                   || d.properties.NAME_REF==="Senegal" 
                           ){
                       return d.properties.NAME_REF;
                   } else {
