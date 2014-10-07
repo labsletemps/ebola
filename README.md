@@ -1,6 +1,6 @@
 Timeline sur Ebola 
-==========================================
-## (letemps.ch - sept 2014)
+(letemps.ch - sept 2014)
+
 ![](http://www.letemps.ch/tout_le_temps/le_temps/infographie/2014/ebola/css/image.jpg)
 Une datavisualisation sur le déclenchement et la progression d'Ebola en Afrique de l'Ouest 
 
