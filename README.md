@@ -9,4 +9,5 @@ Voir le projet : http://www.letemps.ch/tout_le_temps/le_temps/infographie/2014/e
 
 - Forké depuis le super projet initial de Simon Johnson et Jade Dickinson
 http://simonbjohnson.github.io/Ebola-Narrative/
+
 https://github.com/SimonbJohnson/Ebola-Narrative/
